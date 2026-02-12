@@ -1046,6 +1046,10 @@ section {
         height: 320px;
     }
 
+    .hero-info {
+        justify-content: center;
+    }
+
     .hero-buttons {
         justify-content: center;
     }
@@ -1194,6 +1198,15 @@ section {
 
     .hamburger {
         display: none;
+    }
+
+    .skills-scroll-container::before,
+    .skills-scroll-container::after {
+        width: 40px;
+    }
+
+    .container {
+        padding: 0 var(--spacing-sm);
     }
 
     section {
