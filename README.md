@@ -1,8 +1,6 @@
 # Professional Portfolio - Zyad Tarek
 
-A modern, visually stunning portfolio website for Zyad Tarek, a Cybersecurity & AI Engineering student. This project features a unique dark-themed design with teal accents, glassmorphism effects, and smooth animations.
-
-![Portfolio Preview](assets/profile.jpg) <!-- This is a placeholder for a screenshot if one was available -->
+A modern, visually stunning portfolio website for Zyad Tarek, a Cybersecurity & AI Engineering student. This project features a unique dark-themed design with teal accents, glassmorphism effects, and smooth animations. <!-- This is a placeholder for a screenshot if one was available -->
 
 ## 🚀 Features
 
