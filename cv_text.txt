@@ -1,0 +1,39 @@
+Zyad Tarek
+zyadt8055@gmail.com 01557350854 Tanta-El Gharbia-Egypt zyad-tarek 
+PROFILE
+Motivated student with a strong interest in Cybersecurity and technology. I enjoy learning, problem-solving, 
+and exploring new ideas to grow academically and personally. My goal is to apply my skills to contribute 
+positively while continuously improving and gaining valuable experiences.
+EDUCATION
+Bachelor’s Degree – Engineering, Artificial intelligence
+Tanta University
+Oct 2022 – May 2027
+GPA: 3.25
+SKILLS
+Technical Skills: 
+• Programming & Scripting: Python, C++, JavaScript, Node.js,CCNA 
+• Web Development: HTML, CSS, MongoDB, SQL Server 
+• Security Tools & Systems: Linux, Nmap, cybersheif
+• Networking: fundamentals, packet tracer, network security
+Soft Skills:
+• Strong communication and presentation abilities 
+• Conflict handling and problem resolution 
+• Teamwork and cooperation skills
+COURSES
+Red Teaming & Penetration Testing
+Udemy
+Vulnerability Analyst and Penetration Tester
+DEPI
+Network Security
+NTI
+-Studied and applied General Security Concepts
+-Gained knowledge in Threats, Vulnerabilities, and Mitigations.
+-Learned Security Architecture fundamentals.
+PROJECTS
+Exexlusive 
+E-commerce Application
+• Designed and developed a full-stack web application simulating Amazon, using 
+Node.js for the backend and React for the frontend. Implemented protected routes 
+and robust authorization features to secure user data and operations05/2025
+CERTIFICATES
+Cyber Security 101 Jr Penetration Tester Web Application Pentesting 

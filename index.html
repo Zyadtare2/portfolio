@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zyad Tarek - Cybersecurity & AI Engineering Student Portfolio">
+    <title>Zyad Tarek | Cybersecurity & AI Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-text">ZT</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li>
+                    <a href="#home" class="nav-link active">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        Skills
+                    </a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                        Experience
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                            </path>
+                        </svg>
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with About -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text" id="typed-name">Zyad Tarek</span>
+                </h1>
+                <p class="hero-subtitle">Cybersecurity Student</p>
+                <p class="hero-description">
+                    Motivated student with a strong interest in Cybersecurity and technology. I enjoy learning,
+                    problem-solving,
+                    and exploring new ideas to grow academically and personally. My goal is to apply my skills to
+                    contribute
+                    positively while continuously improving and gaining valuable experiences.
+                </p>
+
+                <!-- Contact Info Badges - Icons Only -->
+                <div class="hero-info">
+                    <a href="https://www.linkedin.com/in/zyad-tarek" target="_blank" rel="noopener noreferrer"
+                        class="info-badge icon-only" title="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Zyadtare2" target="_blank" rel="noopener noreferrer"
+                        class="info-badge icon-only" title="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="mailto:zyadt8055@gmail.com" class="info-badge icon-only"
+                        title="Email: zyadt8055@gmail.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/201557350854" target="_blank" rel="noopener noreferrer"
+                        class="info-badge icon-only" title="WhatsApp: 01557350854">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="assets/profile.jpg" alt="Zyad Tarek">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-scroll-container">
+                <div class="skills-track">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#3776ab"
+                                    d="M49.33 62h29.159C86.606 62 93 55.132 93 46.981V19.183c0-7.912-6.632-13.856-14.555-15.176-5.014-.835-10.195-1.215-15.187-1.191-4.99.023-9.612.448-13.805 1.191C37.098 6.188 35 10.758 35 19.183V30h29v4H23.776c-8.484 0-15.914 5.108-18.237 14.811-2.681 11.12-2.8 17.919 0 29.53C7.614 86.983 12.569 93 21.054 93H31V79.952C31 70.315 39.428 62 49.33 62zm-1.838-39.11c-3.026 0-5.478-2.479-5.478-5.545 0-3.079 2.451-5.581 5.478-5.581 3.015 0 5.479 2.502 5.479 5.581-.001 3.066-2.465 5.545-5.479 5.545zm74.789 25.921C120.183 40.363 116.178 34 107.682 34H97v12.981C97 57.031 88.206 65 78.489 65H49.33C41.342 65 35 72.326 35 80.326v27.8c0 7.91 6.745 12.564 14.462 14.834 9.242 2.717 17.994 3.208 29.051 0C85.862 120.831 93 116.549 93 108.126V97H64v-4h43.682c8.484 0 11.647-5.776 14.599-14.66 3.047-9.145 2.916-17.799 0-29.529zm-41.955 55.606c3.027 0 5.479 2.479 5.479 5.547 0 3.076-2.451 5.579-5.479 5.579-3.015 0-5.478-2.502-5.478-5.579 0-3.068 2.463-5.547 5.478-5.547z" />
+                            </svg>
+                        </div>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#00599C"
+                                    d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l.1.2c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c.1-.8 0-1.7-.4-2.6zM82 66.3c0 6.5-5.2 11.7-11.7 11.7H57.7c-6.5 0-11.7-5.2-11.7-11.7v-4.4c0-6.5 5.2-11.7 11.7-11.7h12.6c6.5 0 11.7 5.2 11.7 11.7v4.4z" />
+                            </svg>
+                        </div>
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z" />
+                                <path fill="#323330"
+                                    d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z" />
+                            </svg>
+                        </div>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#83CD29"
+                                    d="M112.771 30.334L68.674 4.729c-2.781-1.584-6.402-1.584-9.205 0L14.901 30.334C12.031 31.985 10 35.088 10 38.407v51.142c0 3.319 2.084 6.423 4.954 8.083l11.775 6.688c5.628 2.772 7.617 2.772 10.178 2.772 8.333 0 13.093-5.039 13.093-13.828v-50.49c0-.713-.371-1.774-1.071-1.774h-5.623C42.594 41 41 42.061 41 42.773v50.49c0 3.896-3.524 7.773-10.11 4.48L18.723 90.73c-.424-.23-.723-.693-.723-1.181V38.407c0-.482.555-.966.982-1.213l44.424-25.561c.415-.235 1.025-.235 1.439 0l43.882 25.555c.42.253.272.722.272 1.219v51.142c0 .488.183.963-.232 1.198l-44.086 25.576c-.378.227-.847.227-1.261 0l-11.307-6.749c-.341-.198-.746-.269-1.073-.086-3.146 1.783-3.726 2.02-6.677 3.043-.726.253-1.797.692.41 1.929l14.798 8.754a9.294 9.294 0 004.647 1.246c1.642 0 3.25-.426 4.667-1.246l43.885-25.582c2.87-1.672 4.23-4.764 4.23-8.083V38.407c0-3.319-1.36-6.414-4.229-8.073zM77.91 81.445c-11.726 0-14.309-3.235-15.17-9.066-.1-.628-.633-1.379-1.272-1.379h-5.731c-.709 0-1.279.86-1.279 1.566 0 7.466 4.059 16.512 23.453 16.512 14.039 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.105 0 12.461 1.954 13.842 8.091.118.577.645.991 1.24.991h5.754c.354 0 .692-.143.94-.396.24-.272.367-.613.335-.979-.891-10.568-7.912-15.493-22.112-15.493-12.631 0-20.166 5.334-20.166 14.275 0 9.698 7.497 12.378 19.622 13.577 14.505 1.422 15.633 3.542 15.633 6.395 0 4.955-3.978 7.066-13.309 7.066z" />
+                            </svg>
+                        </div>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <circle cx="64" cy="64" r="50" fill="#0D7FA8" stroke="#3ABFCE" stroke-width="4" />
+                                <path fill="#fff"
+                                    d="M64 24c-4.4 0-8 3.6-8 8v8h16v-8c0-4.4-3.6-8-8-8zm-24 24c-4.4 0-8 3.6-8 8v24c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V56c0-4.4-3.6-8-8-8H40z" />
+                            </svg>
+                        </div>
+                        <span>CCNA</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#E34F26"
+                                    d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z" />
+                                <path fill="#EF652A" d="M64 116.8l36.378-10.086 8.559-95.878H64z" />
+                                <path fill="#EBEBEB"
+                                    d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z" />
+                                <path fill="#FFF"
+                                    d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z" />
+                            </svg>
+                        </div>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#1572B6" d="M19.67 26l8.069 90.493 36.206 10.05 36.307-10.063L108.33 26z" />
+                                <path fill="#33A9DC" d="M64 28.063V117.37l29.244-8.106L100.33 28.063z" />
+                                <path fill="#fff"
+                                    d="M64 52.455H80.947L82.205 38.361H64V24.599H98.511L98.181 28.291 94.799 66.218H64z" />
+                                <path fill="#EBEBEB"
+                                    d="M64 52.455v13.763h16.947l-1.597 17.849L64 88.21v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696H64z" />
+                            </svg>
+                        </div>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#439934"
+                                    d="M88.038 42.812c1.605 4.643 2.761 9.383 3.141 14.296.472 6.095.256 12.147-1.029 18.142-.035.165-.109.32-.164.48-.403.001-.814-.049-1.208.012-3.329.523-6.655 1.065-9.981 1.604-3.438.557-6.881 1.092-10.313 1.687-1.216.21-2.721-.041-3.212 1.641-.014.046-.154.054-.235.08l.166-10.051c-.057-8.084-.113-16.168-.169-24.252l1.602-.275c2.62-.429 5.24-.864 7.862-1.281 3.129-.497 6.261-.98 9.392-1.465 1.381-.215 2.764-.412 4.148-.618z" />
+                                <path fill="#45A538"
+                                    d="M61.729 110.054c-1.69-1.453-3.439-2.842-5.059-4.37-8.717-8.222-15.093-17.899-18.233-29.566-.865-3.211-1.442-6.474-1.627-9.792-.13-2.322-.318-4.665-.154-6.975.437-6.144 1.325-12.229 3.127-18.147l.099-.138c.175.233.427.439.516.702 1.759 5.18 3.505 10.364 5.242 15.551 5.458 16.3 10.909 32.604 16.376 48.9.107.318.384.579.583.866l-.87 2.969z" />
+                                <path fill="#46A037"
+                                    d="M88.038 42.812c-1.384.206-2.768.403-4.149.616-3.131.485-6.263.968-9.392 1.465-2.622.417-5.242.852-7.862 1.281l-1.602.275-.012-1.045c-.053-4.906-.104-9.813-.158-14.719-.023-2.1-.068-4.2-.087-6.301-.042-4.611-.064-9.222-.096-13.833l.138-.065c1.032.397 2.118.718 3.088 1.197 13.024 6.412 23.269 15.692 30.029 28.972 2.513 4.938 4.531 10.048 5.654 15.506.267 1.298.455 2.608.681 3.912l-1.485.251c-4.777.806-9.553 1.616-14.329 2.423-1.234.208-2.468.417-3.418.665z" />
+                            </svg>
+                        </div>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#CC2927"
+                                    d="M126.67 98.44c-4.56 1.16-7.38.05-9.91-3.75-5.68-8.51-11.95-16.63-18-24.9-.78-1.07-1.59-2.12-2.6-3.45C89 76 81.85 85.2 75.14 94.77c-2.4 3.42-4.92 4.91-9.4 3.7l26.92-36.13L67.6 29.71c4.31-.84 7.29-.41 9.93 3.45 5.83 8.52 12.26 16.63 18.67 25.21 6.45-8.55 12.8-16.67 18.8-25.11 2.41-3.42 5-4.72 9.33-3.46-3.28 4.35-6.49 8.63-9.72 12.88-4.36 5.73-8.64 11.53-13.16 17.14-1.61 2-1.35 3.3.09 5.19C109.9 76 118.16 87.1 126.67 98.44zM1.33 61.74c.72-3.61 1.2-7.29 2.2-10.83 6-21.43 30.6-30.34 47.5-17.06C60.93 41.64 63.39 52.62 62.9 65H7.1c-.84 22.21 15.15 35.62 35.53 28.78 7.15-2.4 11.36-8 13.47-15 1.07-3.51 2.84-4.06 6.14-3.06-1.69 8.76-5.52 16.08-13.52 20.66-12 6.86-29.13 4.64-38.14-4.89C5.26 85.89 3 78.92 2 71.39c-.15-1.2-.46-2.38-.7-3.57q.03-3.04.03-6.08zm5.87-1.49h50.43c-.33-16.06-10.33-27.47-24-27.57-15-.12-25.78 11.02-26.43 27.57z" />
+                            </svg>
+                        </div>
+                        <span>SQL Server</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#FCC624"
+                                    d="M109.5 63.5c0-3.038-2.462-5.5-5.5-5.5s-5.5 2.462-5.5 5.5 2.462 5.5 5.5 5.5 5.5-2.462 5.5-5.5z" />
+                                <path fill="#333"
+                                    d="M104 .5C49.2.5 4.5 45.2 4.5 100S49.2 199.5 104 199.5 203.5 154.8 203.5 100 158.8.5 104 .5zm0 183c-45.5 0-82.5-37-82.5-82.5S58.5 18.5 104 18.5s82.5 37 82.5 82.5-37 82.5-82.5 82.5z" />
+                                <circle cx="104" cy="100" r="82.5" fill="none" stroke="#333" stroke-width="18" />
+                                <path fill="#333"
+                                    d="M64 64c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zm0 24c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z" />
+                            </svg>
+                        </div>
+                        <span>Linux</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <circle cx="64" cy="64" r="50" fill="#0A3D62" stroke="#3ABFCE" stroke-width="4" />
+                                <path fill="#3ABFCE"
+                                    d="M64 32c-4 0-7 3-7 7v6h14v-6c0-4-3-7-7-7zm-18 18c-3 0-6 3-6 6v18c0 3 3 6 6 6h36c3 0 6-3 6-6V56c0-3-3-6-6-6H46z" />
+                            </svg>
+                        </div>
+                        <span>Nmap</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <rect width="120" height="120" x="4" y="4" rx="8" fill="#0D7FA8" />
+                                <path fill="#3ABFCE" d="M32 48h64v8H32zm0 16h64v8H32zm0 16h48v8H32z" />
+                            </svg>
+                        </div>
+                        <span>CyberChef</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <path fill="#0D7FA8" d="M64 16L16 48v32l48 32 48-32V48z" />
+                                <path fill="#3ABFCE" d="M64 32L32 52v24l32 20 32-20V52z" />
+                                <circle cx="64" cy="64" r="12" fill="#5DD5E8" />
+                            </svg>
+                        </div>
+                        <span>Network Security</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 128 128" width="48" height="48">
+                                <circle cx="32" cy="64" r="16" fill="#0D7FA8" />
+                                <circle cx="96" cy="64" r="16" fill="#3ABFCE" />
+                                <path stroke="#5DD5E8" stroke-width="4" fill="none" d="M48 64h32M64 32v64" />
+                            </svg>
+                        </div>
+                        <span>Packet Tracer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Education & Experience</h2>
+
+            <div class="timeline">
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Oct 2022 - May 2027</span>
+                        <h3>Bachelor's Degree - Engineering, Artificial Intelligence</h3>
+                        <h4>Tanta University</h4>
+                    </div>
+                </div>
+
+                <!-- Courses -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3>Red Teaming & Penetration Testing</h3>
+                        <h4>Udemy</h4>
+                        <p>Comprehensive course on offensive security and penetration testing methodologies.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3>Vulnerability Analyst and Penetration Tester</h3>
+                        <h4>DEPI</h4>
+                        <p>Specialized training in vulnerability assessment and penetration testing techniques.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3>Network Security</h3>
+                        <h4>NTI</h4>
+                        <ul>
+                            <li>Studied and applied General Security Concepts</li>
+                            <li>Gained knowledge in Threats, Vulnerabilities, and Mitigations</li>
+                            <li>Learned Security Architecture fundamentals</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: E-commerce -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project-ecommerce.jpg" alt="Exclusive E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" target="_blank" rel="noopener noreferrer"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Exclusive E-commerce</h3>
+                        </div>
+                        <p class="project-description">
+                            Full-featured online store with product catalog, shopping cart, and sleek modern UI/UX
+                            design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: OTP Verification (Placeholder if needed, but user asked for specific ones) -->
+                <!-- I will replace this or add the Network Design one. Assuming user wants 2 or 3 projects.
+                     I'll add the Network Design one now. -->
+
+                <!-- Project 3: Enterprise Network Design -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project-network.jpg" alt="Enterprise Network Design">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" target="_blank" rel="noopener noreferrer"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Enterprise Network Design</h3>
+                        </div>
+                        <p class="project-description">
+                            Comprehensive network simulation implementing routing protocols, VLANs, and security
+                            policies.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Packet Tracer</span>
+                            <span class="tech-badge">OSPF / VLANs</span>
+                            <span class="tech-badge">ACLs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content-wrapper">
+                <p class="contact-description">
+                    I'm always open to discussing new projects, opportunities, or collaborations.
+                    Feel free to reach out!
+                </p>
+
+                <form class="contact-form" id="contactForm" action="https://formsubmit.co/zyadt8055@gmail.com"
+                    method="POST">
+                    <!-- Spam Protection -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="New Submission from Portfolio!">
+                    <input type="hidden" name="_template" value="table">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="ALEX Morgan" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="alex.morgan@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Send Message
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                    <p id="form-status"
+                        style="display: none; margin-top: 1rem; color: var(--accent); font-weight: 500; text-align: center;">
+                        Message sent successfully! I'll get back to you soon.</p>
+                </form>
+
+                <div class="social-footer">
+                    <a href="https://www.linkedin.com/in/zyad-tarek" target="_blank" rel="noopener noreferrer"
+                        class="social-icon" title="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Zyadtare2" target="_blank" rel="noopener noreferrer" class="social-icon"
+                        title="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="mailto:zyadt8055@gmail.com" class="social-icon" title="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/201557350854" target="_blank" rel="noopener noreferrer" class="social-icon"
+                        title="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Zyad Tarek. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
